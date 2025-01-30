@@ -1,0 +1,43 @@
+.portfoliopage{
+    padding: 0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfoliopage .maintitle{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 3rem 2rem;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: start;
+    margin-bottom: 4rem;
+}
+.projects span{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.projectcontainer{
+    box-shadow: 6px 6px 10px 2px darkseagreen;    padding: 2rem;
+    padding: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.projectcontainer .title{
+    padding: 0rem 0rem;
+    font-size: 3rem;
+}
+.certifications{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-top: 4rem;
+}
+.certifications span{
+    font-size: 3rem;
+    padding: 1rem 0rem;
+}

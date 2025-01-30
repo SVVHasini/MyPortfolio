@@ -1,0 +1,60 @@
+.contactpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactpage .title{
+    font-size: 4rem;
+    margin: 4rem;
+}
+.contactpage form{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.contactpage form .fields{
+    display: flex;
+    flex-direction: column;
+}
+.fields input,textarea{
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    padding:10px
+}
+input:focus{
+    border:2px solid yellowgreen;
+}
+textarea{
+    height:250px
+}
+button {
+    background: linear-gradient(135deg, #4CAF50, #2E8B57); /* Gradient Green */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+button:hover {
+    background: linear-gradient(135deg, #45a049, #228b22);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
+  
+button:active {
+    background: linear-gradient(135deg, #3e8e41, #1e7b1e);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+  }
+.fields label{
+    font-size: 25px;
+}

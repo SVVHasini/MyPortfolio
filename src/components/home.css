@@ -1,0 +1,35 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.name{
+    font-size: 8rem;
+    font-style: italic;
+    padding: 3rem 2rem;
+}
+.course{
+    font-size: 3rem;
+    font-style: italic;
+    padding: 0rem 2rem;
+}
+.objevtive{
+    font-size: 1.2rem;
+}
+.objcontainer{
+    padding: 1rem;
+    margin: 2rem;
+    box-shadow: 0px 0px 5px 0px ;
+    border-radius: 10px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.objcontainer .title{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.objcontainer .description{
+    font-size: 18px;
+}
