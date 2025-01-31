@@ -1,5 +1,5 @@
 body{
-    background-image: url('D:\projects\my_portfolio\public\aboutpage.jpg');
+    background-image: url('./../../public/aboutpage.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
