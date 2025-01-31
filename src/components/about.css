@@ -9,7 +9,7 @@ body{
     margin-top: 2rem;
 }
 .aboutcontainer,.skillscontainer,.educontainer{
-    background-color: yellowgreen;
+    background-color: white;
     border-radius: 2rem;
     margin: 1rem;;
     display: flex;

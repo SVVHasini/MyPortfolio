@@ -1,12 +1,12 @@
 .homepage {
+    height:auto;
     display: flex;
     flex-direction: column;
     align-items: start;
-    background-image: url('D:\projects\my_portfolio\public\homepage.jpg');
+    background-image: url('./../../public/homepage.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
 }
 .name{
     font-size: 8rem;
@@ -33,6 +33,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+    backdrop-filter: blur(200px);
 }
 .objcontainer .title{
     font-size: 20px;

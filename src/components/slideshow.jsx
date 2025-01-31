@@ -48,27 +48,27 @@ export const Slideshow = () => {
         <div className="container">
             <div className="mySlides">
                 <div className="numbertext">1 / 5</div>
-                <img src="certi1.jpg" style={{ width: '100%' }} />
+                <img src="certi1.jpg" id="topimages" style={{ width: '100%' }} />
             </div>
 
             <div className="mySlides">
                 <div className="numbertext">2 / 5</div>
-                <img src="certi2.jpg" style={{ width: '100%' }} />
+                <img src="certi2.jpg" id="topimages" style={{ width: '100%' }} />
             </div>
 
             <div className="mySlides">
                 <div className="numbertext">3 / 5</div>
-                <img src="certi3.jpg" style={{ width: '100%' }} />
+                <img src="certi3.jpg" id="topimages" style={{ width: '100%' }} />
             </div>
 
             <div className="mySlides">
                 <div className="numbertext">4 / 5</div>
-                <img src="certi4.jpg" style={{ width: '100%' }} />
+                <img src="certi4.jpg" id="topimages" style={{ width: '100%' }} />
             </div>
 
             <div className="mySlides">
                 <div className="numbertext">5 / 5</div>
-                <img src="certi5.jpg" style={{ width: '100%' }} />
+                <img src="certi5.jpg" id="topimages" style={{ width: '100%' }} />
             </div>
             {/* <a className="prev" onClick={()=>plusSlides(-1)}>&#10094;</a>
             <a className="next" onClick={()=>plusSlides(1)}>&#10095;</a> */}
