@@ -9,6 +9,7 @@
     text-align: center;
     margin-bottom: 2rem;
     padding: 3rem 2rem;
+    color: yellowgreen;
 }
 .projects{
     display: flex;
@@ -20,16 +21,20 @@
 .projects span{
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: yellowgreen;
 }
 .projectcontainer{
     box-shadow: 6px 6px 10px 2px darkseagreen;    padding: 2rem;
     padding: 2rem;
+    background-color: yellowgreen;
+    color: black;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
 .projectcontainer .title{
     padding: 0rem 0rem;
     font-size: 3rem;
+    color: #333;
 }
 .certifications{
     display: flex;
@@ -39,5 +44,10 @@
 }
 .certifications span{
     font-size: 3rem;
+    color: yellowgreen;
     padding: 1rem 0rem;
+}
+.projectcontainer .description{
+    font-size: 1rem;
+    color: #333;
 }

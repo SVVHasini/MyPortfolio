@@ -5,6 +5,7 @@
 }
 .contactpage .title{
     font-size: 4rem;
+    color: yellowgreen;
     margin: 4rem;
 }
 .contactpage form{
@@ -32,7 +33,7 @@ textarea{
 }
 button {
     background: linear-gradient(135deg, #4CAF50, #2E8B57); /* Gradient Green */
-    color: white;
+    color: black;
     border: none;
     padding: 12px 24px;
     font-size: 16px;
@@ -57,4 +58,5 @@ button:active {
   }
 .fields label{
     font-size: 25px;
+    color: yellowgreen;    
 }

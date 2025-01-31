@@ -1,4 +1,17 @@
+body{
+    background-image: url('D:\projects\my_portfolio\public\aboutpage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.aboutpage{
+    margin-top: 2rem;
+}
 .aboutcontainer,.skillscontainer,.educontainer{
+    background-color: yellowgreen;
+    border-radius: 2rem;
+    margin: 1rem;;
     display: flex;
     flex-direction: column;
     padding: 4rem 2rem;
@@ -32,7 +45,7 @@
     margin-bottom: 5px;
 }
 .eduitems{
-    box-shadow: 6px 6px 10px 2px darkseagreen;    padding: 2rem;
+    box-shadow: 6px 6px 10px 2px #333;    padding: 2rem;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }

@@ -9,8 +9,7 @@ export const Home = () => {
                     my objective.
                 </div>
                 <div className="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dolores repudiandae. Corporis repudiandae facilis sequi iure libero? Mollitia ad tempore enim fuga, nobis nulla dolorem voluptatibus ipsa. Vero, hic nostrum.
-                </div>
+                A highly motivated and passionate Computer Science student with a strong foundation in programming, web development, and problem-solving. Seeking opportunities to apply my skills in real-world projects, internships, and research. Eager to learn new technologies, contribute to innovative solutions, and enhance my expertise in software development, data structures, and emerging fields like AI & cloud computing. Looking forward to gaining industry experience and preparing for a successful tech career.                </div>
             </div>
         </div>
     )

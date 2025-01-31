@@ -2,19 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+    background-image: url('D:\projects\my_portfolio\public\homepage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 .name{
     font-size: 8rem;
+    color: yellowgreen;
     font-style: italic;
     padding: 3rem 2rem;
 }
 .course{
     font-size: 3rem;
+    color: yellowgreen;
     font-style: italic;
     padding: 0rem 2rem;
 }
 .objevtive{
     font-size: 1.2rem;
+    color: yellowgreen;
 }
 .objcontainer{
     padding: 1rem;
@@ -28,8 +36,10 @@
 }
 .objcontainer .title{
     font-size: 20px;
+    color: yellowgreen;
     text-transform: capitalize;
 }
 .objcontainer .description{
     font-size: 18px;
+    color: yellowgreen;
 }
